@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+<meta name="theme-color" content="#000000">
+<title>404 not found — nudisco ai</title>
+<style>
+/* nudisco-not-found-v2: restrained void, shared by both sites. */
+:root{color-scheme:dark;font:16px/1.6 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+*{box-sizing:border-box}
+html{background:#000000}
+body{margin:0;min-height:100vh;min-height:100svh;color:#F2C4FD;overflow-x:hidden;
+  background-color:#000000;background-image:
+    radial-gradient(ellipse 56% 49% at 77% 18%,rgba(208,133,208,.18),transparent 78%),
+    radial-gradient(ellipse 53% 43% at 14% 70%,rgba(74,23,103,.17),transparent 78%),
+    radial-gradient(ellipse 60% 32% at 52% 105%,rgba(54,157,105,.13),transparent 82%),
+    linear-gradient(115deg,rgba(242,196,253,.045),transparent 58%),
+    linear-gradient(rgba(208,133,208,.085) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(208,133,208,.085) 1px,transparent 1px);
+  background-size:auto,auto,auto,auto,60px 60px,60px 60px}
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+  background-image:
+    radial-gradient(circle at 9% 18%,#F2C4FD 0 1px,transparent 2px),
+    radial-gradient(circle at 71% 9%,#F2C4FD 0 1px,transparent 2px),
+    radial-gradient(circle at 85% 64%,#D085D0 0 1px,transparent 2px),
+    radial-gradient(circle at 36% 76%,#369D69 0 1px,transparent 2px),
+    url("data:image/svg+xml,%3Csvg xmlns='http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox='0 0 1440 900'%3E%3Cg fill='none' stroke='%23D085D0' stroke-width='1.3'%3E%3Cpath d='M806 173l112 82-37 129-121-74zM806 173l-46 137 121 74M918 255l-158 55' opacity='.42'/%3E%3Cpath d='M204 650l127-58 91 102-132 73zM331 592l-41 175M204 650l218 44' opacity='.30'/%3E%3C/g%3E%3C/svg%3E");
+  background-size:auto,auto,auto,auto,cover;background-repeat:no-repeat;opacity:.50}
+.void-floor{position:fixed;inset:52% 0 0;pointer-events:none;z-index:0;overflow:hidden;
+  -webkit-mask-image:linear-gradient(transparent,#000000 80%);mask-image:linear-gradient(transparent,#000000 80%)}
+.void-floor::before{content:"";position:absolute;left:-40%;right:-40%;top:18%;height:140%;
+  background-image:linear-gradient(rgba(54,157,105,.12) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(54,157,105,.12) 1px,transparent 1px);
+  background-size:60px 60px;transform-origin:50% 0;transform:perspective(520px) rotateX(58deg)}
+.page{position:relative;z-index:1;display:flex;flex-direction:column;min-height:100vh;min-height:100svh}
+header{width:min(100% - 32px,780px);margin:0 auto;padding:22px 0 17px;border-bottom:1px solid #4A1767;
+  display:flex;justify-content:space-between;align-items:center;gap:14px}
+.brand,.home{font-size:.8rem;font-weight:400;letter-spacing:normal;text-decoration:none;line-height:1.6}
+.brand{color:#F2C4FD}
+.home{color:#00F600;white-space:nowrap;border-bottom:1px solid transparent}
+.home:hover,.home:focus-visible{color:#00F600;border-bottom-color:currentColor}
+.brand:hover,.brand:focus-visible{color:#F2C4FD;text-decoration:underline;text-underline-offset:4px}
+main{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  text-align:center;padding:58px 16px 60px}
+h1{margin:0;font-size:clamp(5rem,15vw,9rem);line-height:1;letter-spacing:-.08em;
+  font-weight:700;color:#CDE67E}
+.name{margin:14px 0 0;font-size:1.1rem;letter-spacing:.13em;color:#F2C4FD}
+.explain{margin:24px 0 0;max-width:35ch;color:#F2C4FD;font-size:.91rem}
+a:focus-visible{outline:2px solid #F2C4FD;outline-offset:5px}
+.cry{margin-top:auto;width:100%;padding:13px 16px max(20px,env(safe-area-inset-bottom));
+  text-align:center;overflow-wrap:anywhere;word-break:normal;font-size:1rem;font-weight:400;
+  letter-spacing:normal;line-height:1.5;color:#D085D0;
+  background:linear-gradient(transparent,rgba(74,23,103,.24))}
+@media(max-width:480px){main{padding:52px 14px 58px}h1{font-size:clamp(4.5rem,21vw,6rem)}.cry{padding-inline:22px}}
+@media(max-height:480px){main{padding-block:20px}h1{font-size:4.4rem}.explain{margin-top:12px}}
+@media(forced-colors:active){body{background:Canvas;color:CanvasText}.home,.brand{color:LinkText}.void-floor{display:none}}
+/* nudisco-consistency-v3: normal visible framing also applies to the missing page. */
+@media screen {
+ header{position:relative;min-height:54px;height:54px;padding:0;border-bottom:0}
+ header::after{content:"";position:absolute;bottom:0;left:50%;transform:translateX(-50%);
+   width:100vw;height:1px;background:#4A1767;pointer-events:none}
+ header .brand{font-size:16px;line-height:1.35}
+ header .home{font-size:12px;line-height:1.35}
+}
+@media screen and (max-width:620px){header .brand{font-size:15px}header .home{font-size:11px}}
+
+/* nudisco-consistency-v4: even a missing-page ruler ends at the body edges. */
+@media screen {
+  header::after{left:0;right:0;transform:none;width:100%}
+  header a:hover,header a:focus-visible{background:transparent!important;
+    text-decoration:underline;text-underline-offset:.24em}
+}
+
+</style>
+</head>
+<body>
+<div class="void-floor" aria-hidden="true"></div>
+<div class="page">
+  <header><a class="brand" href="https://nudisco-ai.whoismister-e.workers.dev/">nudisco ai</a><a class="home" href="/nudisco-machine-map/">return</a></header>
+  <main>
+    <h1>404</h1>
+    <p class="name">not found</p>
+    <p class="explain">the page you requested could not be found.</p>
+  </main>
+  <footer class="cry">waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaah</footer>
+</div>
+</body>
+</html>
