@@ -52,6 +52,7 @@ https://nudisco-ai.whoismister-e.workers.dev/sitemap-but-pink.xml
 https://nudisco-ai.whoismister-e.workers.dev/sitemap-but-pink.txt
 https://nudisco-ai.whoismister-e.workers.dev/feeds-but-pink.opml
 https://nudisco-ai.whoismister-e.workers.dev/astralinks
+https://nudisco-ai.whoismister-e.workers.dev/llms.txt
 https://nudisco-ai.whoismister-e.workers.dev/time
 https://nudisco-ai.whoismister-e.workers.dev/registry-but-pink/discovery
 https://nudisco-ai.whoismister-e.workers.dev/registry-but-pink/directories
