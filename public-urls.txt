@@ -61,6 +61,8 @@ https://nudisco-ai.whoismister-e.workers.dev/registry-but-pink/documents
 https://nudisco-ai.whoismister-e.workers.dev/registry-but-pink/services
 https://nudisco-ai.whoismister-e.workers.dev/registry-but-pink/archives
 https://nudisco-ai.whoismister-e.workers.dev/registry-but-pink/external
+https://nudisco-ai.whoismister-e.workers.dev/feed?cursor=20261125-160114-to-name-a-few-in-no-particular-order-99b2
+https://nudisco-ai.whoismister-e.workers.dev/filter/feed?cursor=20261125-160114-to-name-a-few-in-no-particular-order-99b2
 https://nudisco-ai.whoismister-e.workers.dev/feed?cursor=20261118-112826-hi-everypony-2add
 https://nudisco-ai.whoismister-e.workers.dev/filter/feed?cursor=20261118-112826-hi-everypony-2add
 https://nudisco-ai.whoismister-e.workers.dev/feed?cursor=20261115-190920-boing-i-bonked-up-deleting-a-ton-of-shit-o-6697
